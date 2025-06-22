@@ -57,7 +57,7 @@ This chatbot is particularly suited for:
 
 3. **Install dependencies:**
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 4. **Add your `.env` file:**
@@ -75,7 +75,7 @@ This chatbot is particularly suited for:
 ## 🧪 How to Run
 
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 You’ll see a web interface where you can input questions in **English or German**. The bot will respond with answers derived from indexed documents and cite the sources—**only if relevant**.
